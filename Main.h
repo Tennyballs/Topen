@@ -2,7 +2,6 @@
 #define MAIN_H
 
 #define println(v) printf("%s\n", v)
-#define print(v) printf("%s", v)
 
 int main(int argc, char **argv);
 
