@@ -1,7 +1,5 @@
 #include <stdio.h>
 #include <vector>
-#include <string>
-
 #include "World.h"
 
 static std::vector<World *> OpenWorlds = std::vector<World *>();
