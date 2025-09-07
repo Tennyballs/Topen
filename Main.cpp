@@ -1,5 +1,5 @@
 #include <iostream>
-#include "World.h"
+#include "World.hpp"
 
 int main(int argc, char **argv)
 {
