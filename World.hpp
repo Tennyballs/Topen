@@ -18,7 +18,12 @@ class World
 {
 
 private:
-    int32 mapVersion;
+    int32 mapVersion;    // first 4 bytes
+    String terrariaEnum; // next 7 bytes
+    Byte fileType;       // next byte
+    char revision[12];   // skip 12 bytes
+    int16 sections;
+    int32 *section;
 
 public:
     World(const char *filePath);
